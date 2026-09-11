@@ -1,0 +1,52 @@
+name: exercises
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+env:
+  CARGO_TERM_COLOR: always
+
+jobs:
+  fmt:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: rustfmt
+      - run: cargo fmt --all -- --check
+
+  clippy-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          components: clippy
+      - uses: Swatinem/rust-cache@v2
+      # No --workspace: default-members (examples/* + solutions/*/*) is the
+      # strict gate. exercises/*/* are intentionally-unsolved stubs (see
+      # Cargo.toml) and are excluded on purpose.
+      - run: cargo clippy --all-targets --all-features -- -D warnings
+      - run: cargo test
+      # NOT `cargo build --workspace`: some exercises are intentionally
+      # broken in their unsolved state (a missing Cargo.toml dependency, a
+      # trybuild compile-fail case) — that's the exercise, not a scaffolding
+      # bug. Per-exercise scaffolding sanity is instead checked by the
+      # solutions/ crates above, which mirror every exercise's fixed state.
+
+  reuse:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: fsfe/reuse-action@v5
+
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: rustsec/audit-check@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}

@@ -1,0 +1,20 @@
+[book]
+title = "Rust for C Engineers"
+authors = ["Simon Keimer and contributors"]
+description = "A deep, example-driven Rust tutorial for engineers who already think in C: ownership vs malloc/free, borrowing vs raw pointers, traits vs vtables, fearless concurrency vs pthreads, and how to build real PC applications idiomatically."
+language = "en"
+src = "src"
+
+[build]
+create-missing = false
+
+[output.html]
+git-repository-url = "https://github.com/simonkeimer/rustut"
+edit-url-template = "https://github.com/simonkeimer/rustut/edit/main/{path}"
+
+[output.html.fold]
+enable = true
+level = 1
+
+[output.linkcheck]
+follow-web-links = false

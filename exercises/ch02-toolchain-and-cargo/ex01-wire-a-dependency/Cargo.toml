@@ -1,0 +1,16 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
+[package]
+name = "ch02-ex01-wire-a-dependency"
+version = "0.1.0"
+publish = false
+edition.workspace = true
+license.workspace = true
+
+[lints]
+workspace = true
+
+# TODO (this is the exercise): src/lib.rs already calls into the sibling
+# `stringy-lib` crate at ../stringy-lib, but nothing here tells Cargo that
+# dependency exists yet — `cargo test -p ch02-ex01-wire-a-dependency` will
+# currently fail with "can't find crate for `stringy_lib`". Add a
+# [dependencies] section with a path dependency on it. See README.md.

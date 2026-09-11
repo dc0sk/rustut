@@ -1,0 +1,35 @@
+[workspace]
+resolver = "3"
+members = [
+    "examples/*",
+    "exercises/*/*",
+    "solutions/*/*",
+]
+# Exercise stubs are intentionally unsolved (`todo!()`, unused params) until
+# a learner fills them in, so they must NOT be part of the strict `-D
+# warnings` gate that `cargo test`/`cargo clippy` (no `--workspace`) run in
+# CI. default-members scopes bare invocations to the content that's always
+# expected to be clean; grade a specific exercise with `-p <crate-name>`,
+# which ignores default-members and works on any workspace member.
+default-members = [
+    "examples/*",
+    "solutions/*/*",
+]
+
+[workspace.package]
+edition = "2024"
+rust-version = "1.85"
+license = "MIT OR Apache-2.0"
+
+[workspace.lints.rust]
+unsafe_op_in_unsafe_fn = "deny"
+
+[workspace.lints.clippy]
+# clippy::all (correctness/style/complexity/perf) is the baseline gate.
+# clippy::pedantic is deliberately NOT enabled workspace-wide: combined with
+# `-D warnings` in CI it would force things like `#[must_use]` on every
+# trivial exercise function, which is noise for teaching code, not signal.
+# Individual chapters are free to opt a crate into pedantic locally when the
+# chapter is specifically about API-design polish (e.g. Ch. 27).
+all = { level = "warn", priority = -1 }
+todo = "allow"       # exercise stubs deliberately contain todo!()

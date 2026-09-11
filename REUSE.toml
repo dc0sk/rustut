@@ -1,0 +1,26 @@
+version = 1
+SPDX-PackageName = "rustut"
+SPDX-PackageSupplier = "Simon Keimer <simon.keimer@mailbox.org>"
+SPDX-PackageDownloadLocation = "https://github.com/simonkeimer/rustut"
+
+[[annotations]]
+path = "src/**"
+SPDX-FileCopyrightText = "2026 Simon Keimer and contributors"
+SPDX-License-Identifier = "CC-BY-SA-4.0"
+
+[[annotations]]
+path = ["examples/**", "exercises/**", "solutions/**"]
+SPDX-FileCopyrightText = "2026 Simon Keimer and contributors"
+SPDX-License-Identifier = "MIT OR Apache-2.0"
+
+[[annotations]]
+path = [
+    "*.toml",
+    ".gitignore",
+    ".github/**",
+    "AGENTS.md",
+    "LICENSING.md",
+    "README.md",
+]
+SPDX-FileCopyrightText = "2026 Simon Keimer and contributors"
+SPDX-License-Identifier = "MIT OR Apache-2.0"

@@ -1,0 +1,12 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
+# ANCHOR: manifest
+[package]
+name = "ch02-toolchain-and-cargo-example"
+version = "0.1.0"
+publish = false
+edition.workspace = true
+license.workspace = true
+
+[lints]
+workspace = true
+# ANCHOR_END: manifest
