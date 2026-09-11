@@ -42,6 +42,102 @@ name = "ch03-ex01-module-visibility-solution"
 version = "0.1.0"
 
 [[package]]
+name = "ch04-ex01-safe-narrowing"
+version = "0.1.0"
+
+[[package]]
+name = "ch04-ex01-safe-narrowing-solution"
+version = "0.1.0"
+
+[[package]]
+name = "ch04-variables-mutability-types-example"
+version = "0.1.0"
+
+[[package]]
+name = "ch05-ex01-move-and-clone"
+version = "0.1.0"
+
+[[package]]
+name = "ch05-ex01-move-and-clone-solution"
+version = "0.1.0"
+
+[[package]]
+name = "ch05-ownership-example"
+version = "0.1.0"
+
+[[package]]
+name = "ch06-borrowing-and-references-example"
+version = "0.1.0"
+
+[[package]]
+name = "ch06-ex01-largest-without-cloning"
+version = "0.1.0"
+
+[[package]]
+name = "ch06-ex01-largest-without-cloning-solution"
+version = "0.1.0"
+
+[[package]]
+name = "ch07-ex01-parser-struct"
+version = "0.1.0"
+
+[[package]]
+name = "ch07-ex01-parser-struct-solution"
+version = "0.1.0"
+
+[[package]]
+name = "ch07-lifetimes-example"
+version = "0.1.0"
+
+[[package]]
+name = "ch08-ex01-shapes-and-vehicles"
+version = "0.1.0"
+
+[[package]]
+name = "ch08-ex01-shapes-and-vehicles-solution"
+version = "0.1.0"
+
+[[package]]
+name = "ch08-structs-and-enums-example"
+version = "0.1.0"
+
+[[package]]
+name = "ch09-ex01-classify-readings"
+version = "0.1.0"
+
+[[package]]
+name = "ch09-ex01-classify-readings-solution"
+version = "0.1.0"
+
+[[package]]
+name = "ch09-pattern-matching-example"
+version = "0.1.0"
+
+[[package]]
+name = "ch10-ex01-lookup-and-parse"
+version = "0.1.0"
+
+[[package]]
+name = "ch10-ex01-lookup-and-parse-solution"
+version = "0.1.0"
+
+[[package]]
+name = "ch10-option-result-example"
+version = "0.1.0"
+
+[[package]]
+name = "ch11-collections-example"
+version = "0.1.0"
+
+[[package]]
+name = "ch11-ex01-word-count-and-dedup"
+version = "0.1.0"
+
+[[package]]
+name = "ch11-ex01-word-count-and-dedup-solution"
+version = "0.1.0"
+
+[[package]]
 name = "stringy-lib"
 version = "0.1.0"
 
