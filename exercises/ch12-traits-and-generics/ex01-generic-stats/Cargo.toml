@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: MIT OR Apache-2.0
+[package]
+name = "ch12-ex01-generic-stats"
+version = "0.1.0"
+publish = false
+edition.workspace = true
+license.workspace = true
+
+[lints]
+workspace = true

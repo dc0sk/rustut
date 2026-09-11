@@ -138,6 +138,54 @@ name = "ch11-ex01-word-count-and-dedup-solution"
 version = "0.1.0"
 
 [[package]]
+name = "ch12-ex01-generic-stats"
+version = "0.1.0"
+
+[[package]]
+name = "ch12-ex01-generic-stats-solution"
+version = "0.1.0"
+
+[[package]]
+name = "ch12-traits-and-generics-example"
+version = "0.1.0"
+
+[[package]]
+name = "ch13-ex01-shape-collection"
+version = "0.1.0"
+
+[[package]]
+name = "ch13-ex01-shape-collection-solution"
+version = "0.1.0"
+
+[[package]]
+name = "ch13-trait-objects-example"
+version = "0.1.0"
+
+[[package]]
+name = "ch14-ex01-visibility-boundaries"
+version = "0.1.0"
+
+[[package]]
+name = "ch14-ex01-visibility-boundaries-solution"
+version = "0.1.0"
+
+[[package]]
+name = "ch14-modules-and-visibility-example"
+version = "0.1.0"
+
+[[package]]
+name = "ch15-closures-and-iterators-example"
+version = "0.1.0"
+
+[[package]]
+name = "ch15-ex01-sum-where"
+version = "0.1.0"
+
+[[package]]
+name = "ch15-ex01-sum-where-solution"
+version = "0.1.0"
+
+[[package]]
 name = "stringy-lib"
 version = "0.1.0"
 
