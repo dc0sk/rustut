@@ -60,15 +60,6 @@ reach for `match` first.
 
 ## GoF patterns that mostly disappear
 
-- **Singleton** → `std::sync::OnceLock` (or `std::sync::LazyLock`): a
-  lazily-initialized, thread-safe global, with no hand-rolled
-  double-checked locking (the classic C pattern: a `static` pointer, a
-  mutex, and a check-lock-check-again dance to initialize exactly once).
-
-  ```rust,ignore
-  {{#include ../../examples/ch28-design-patterns/src/lib.rs:singleton}}
-  ```
-
 - **Iterator** → built into the language via the `Iterator` trait
   (Ch. 15). You almost never hand-implement per-collection iteration
   machinery; you implement `next()` once and every combinator (`.map()`,
@@ -77,6 +68,16 @@ reach for `match` first.
   (`Connection::new(...)`) or an enum constructor — a dedicated Factory
   *type* is rarely needed when the language already gives you namespaced
   constructors and closed enums.
+
+**Singleton** deserves its own paragraph rather than a bullet, since it's
+worth seeing in full: `std::sync::OnceLock` (or `std::sync::LazyLock`)
+gives you a lazily-initialized, thread-safe global, with no hand-rolled
+double-checked locking — the classic C pattern of a `static` pointer, a
+mutex, and a check-lock-check-again dance to initialize exactly once:
+
+```rust,ignore
+{{#include ../../examples/ch28-design-patterns/src/lib.rs:singleton}}
+```
 
 ## Exercise
 

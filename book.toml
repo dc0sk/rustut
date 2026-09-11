@@ -18,3 +18,9 @@ level = 1
 
 [output.linkcheck]
 follow-web-links = false
+# optional: neither CI nor a local `cargo install mdbook` installs the
+# separate mdbook-linkcheck binary, so without this flag `mdbook build`
+# hard-fails ("backend not installed") for everyone. With it, link
+# checking simply runs if the binary happens to be present (`cargo
+# install mdbook-linkcheck`) and is silently skipped otherwise.
+optional = true
