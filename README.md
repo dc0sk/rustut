@@ -100,7 +100,6 @@ This repository mixes two licenses by content type — see
 
 ## Status
 
-All 32 chapters (Parts 0–5, including the capstone project) are written,
-guided-example-backed, exercise-backed, and verified. The Appendix
-(C-to-Rust glossary, cheat sheet, further reading) is scaffolded in
-`src/appendix/` but not yet written — contributions welcome.
+All 32 chapters (Parts 0–5, including the capstone project), plus the
+Appendix (C-to-Rust glossary, cheat sheet, further reading), are
+written, guided-example-backed where applicable, and verified.
