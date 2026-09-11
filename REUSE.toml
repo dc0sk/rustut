@@ -24,3 +24,12 @@ path = [
 ]
 SPDX-FileCopyrightText = "2026 Simon Keimer and contributors"
 SPDX-License-Identifier = "MIT OR Apache-2.0"
+
+# Cargo.lock is machine-generated and Cargo may rewrite it, stripping any
+# inline header comment - so it needs an explicit REUSE.toml annotation
+# rather than relying on the "*.toml" glob above (Cargo.lock isn't a
+# .toml file) or an inline comment surviving a `cargo build`.
+[[annotations]]
+path = "Cargo.lock"
+SPDX-FileCopyrightText = "2026 Simon Keimer and contributors"
+SPDX-License-Identifier = "MIT OR Apache-2.0"
