@@ -23,12 +23,18 @@ jobs:
 
       - name: Reject hand-typed rust fences
         run: |
-          # Every rust code sample must come from {{#include}} of a real,
-          # compiled example crate, never a hand-typed fence — that's the
-          # anti-rot guarantee. Flag any ```rust fence not immediately
-          # preceded (within 2 lines) by an {{#include}} directive.
+          # Every rust code sample must come from an mdBook {{#include}} of
+          # a real, compiled example crate, never a hand-typed fence -
+          # that's the anti-rot guarantee. Flag any file with a fenced rust
+          # code block that contains no {{#include}} directive anywhere.
+          #
+          # NOTE: avoid literal backticks in any double-quoted string in
+          # this script - bash treats a backtick as a command-substitution
+          # delimiter even inside double quotes (unlike single quotes,
+          # where it's inert), and three backticks is an unbalanced count
+          # that breaks parsing of the whole script. Single-quote instead.
           if grep -rnE '^```rust\b' src --include='*.md' | grep -v -f <(grep -rlE '\{\{#include' src --include='*.md'); then
-            echo "::error::found a ```rust fence in a chapter whose file contains no {{#include}} — hand-typed code samples are not allowed, see book.yml"
+            echo '::error::found a rust code fence in a chapter whose file contains no {{#include}} - hand-typed code samples are not allowed, see book.yml'
             exit 1
           fi
 
