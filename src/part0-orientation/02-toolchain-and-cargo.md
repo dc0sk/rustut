@@ -118,7 +118,7 @@ you.
 ## Exercise
 
 **Exercise 2.1**, in
-[`exercises/ch02-toolchain-and-cargo/ex01-wire-a-dependency/`](https://github.com/simonkeimer/rustut/tree/main/exercises/ch02-toolchain-and-cargo/ex01-wire-a-dependency),
+[`exercises/ch02-toolchain-and-cargo/ex01-wire-a-dependency/`](https://github.com/dc0sk/rustut/tree/main/exercises/ch02-toolchain-and-cargo/ex01-wire-a-dependency),
 is deliberately broken: its `src/lib.rs` already calls a finished sibling
 crate, but `Cargo.toml` never declares the dependency, so it won't even
 compile yet. Fix the manifest, not the code — see the exercise's

@@ -102,7 +102,7 @@ wants to hold one? That's Chapter 7.
 ## Exercise
 
 **Exercise 6.1**, in
-[`exercises/ch06-borrowing-and-references/ex01-largest-without-cloning/`](https://github.com/simonkeimer/rustut/tree/main/exercises/ch06-borrowing-and-references/ex01-largest-without-cloning),
+[`exercises/ch06-borrowing-and-references/ex01-largest-without-cloning/`](https://github.com/dc0sk/rustut/tree/main/exercises/ch06-borrowing-and-references/ex01-largest-without-cloning),
 has you implement two small functions that borrow instead of clone. See
 its `README.md`.
 

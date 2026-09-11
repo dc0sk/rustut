@@ -59,7 +59,7 @@ Every chapter has the same four pieces:
 ## Working with a coding agent
 
 If you're using a coding agent (Claude Code or similar) to work through
-exercises or to check your solutions, point it at [`AGENTS.md`](https://github.com/simonkeimer/rustut/blob/main/AGENTS.md)
+exercises or to check your solutions, point it at [`AGENTS.md`](https://github.com/dc0sk/rustut/blob/main/AGENTS.md)
 in the repository root first. It defines exactly what commands to run, what
 counts as a pass, and how to grade the handful of exercises that are
 open-ended design tasks rather than pure test-pass/fail. An agent that
@@ -86,7 +86,7 @@ This book's prose (everything under `src/`) is licensed
 examples, exercises, and solutions — is licensed MIT OR Apache-2.0, the
 same dual license used by the Rust compiler and the overwhelming majority
 of published crates, so you can copy it into your own projects freely. See
-[`LICENSING.md`](https://github.com/simonkeimer/rustut/blob/main/LICENSING.md)
+[`LICENSING.md`](https://github.com/dc0sk/rustut/blob/main/LICENSING.md)
 for the exact split.
 
 Let's start with *why* — [Chapter 1](part0-orientation/01-why-rust.md).

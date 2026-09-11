@@ -64,7 +64,7 @@ moment it isn't.
 ## Exercise
 
 **Exercise 21.1**, in
-[`exercises/ch21-atomics/ex01-atomic-counter/`](https://github.com/simonkeimer/rustut/tree/main/exercises/ch21-atomics/ex01-atomic-counter),
+[`exercises/ch21-atomics/ex01-atomic-counter/`](https://github.com/dc0sk/rustut/tree/main/exercises/ch21-atomics/ex01-atomic-counter),
 has you implement a saturating counter using a `compare_exchange` retry
 loop — the pattern that generalizes to almost any "read, check, maybe
 update" atomic operation. See its `README.md`.

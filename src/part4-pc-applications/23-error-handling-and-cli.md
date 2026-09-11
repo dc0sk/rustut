@@ -95,7 +95,7 @@ looking at:
 ## Exercise
 
 **Exercise 23.1**, in
-[`exercises/ch23-error-handling-and-cli/ex01-parse-config/`](https://github.com/simonkeimer/rustut/tree/main/exercises/ch23-error-handling-and-cli/ex01-parse-config),
+[`exercises/ch23-error-handling-and-cli/ex01-parse-config/`](https://github.com/dc0sk/rustut/tree/main/exercises/ch23-error-handling-and-cli/ex01-parse-config),
 has you implement a small settings parser using `?` to propagate a
 `thiserror`-derived error type. See its `README.md`.
 

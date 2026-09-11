@@ -111,7 +111,7 @@ mechanism starts to matter directly.
 ## Exercise
 
 **Exercise 10.1**, in
-[`exercises/ch10-option-result/ex01-lookup-and-parse/`](https://github.com/simonkeimer/rustut/tree/main/exercises/ch10-option-result/ex01-lookup-and-parse),
+[`exercises/ch10-option-result/ex01-lookup-and-parse/`](https://github.com/dc0sk/rustut/tree/main/exercises/ch10-option-result/ex01-lookup-and-parse),
 has you write a small `Option`-returning search and a `Result`-returning
 parser that combines both types via `?`. See its `README.md`.
 

@@ -120,7 +120,7 @@ crate, and `bindgen`.
 ## Exercise
 
 **Exercise 17.1**, in
-[`exercises/ch17-unsafe-and-ffi-basics/ex01-checked-buffer/`](https://github.com/simonkeimer/rustut/tree/main/exercises/ch17-unsafe-and-ffi-basics/ex01-checked-buffer),
+[`exercises/ch17-unsafe-and-ffi-basics/ex01-checked-buffer/`](https://github.com/dc0sk/rustut/tree/main/exercises/ch17-unsafe-and-ffi-basics/ex01-checked-buffer),
 has you wrap `slice::get_unchecked` in a bounds check you write yourself —
 the direct, concrete version of "`unsafe` doesn't disable bounds checks on
 `[]`, it just means `get_unchecked` skips the one `[]` always does." See

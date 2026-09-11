@@ -65,7 +65,7 @@ again) — no collision possible, and no litter left behind either.
 ## Exercise
 
 **Exercise 24.1**, in
-[`exercises/ch24-files-and-os/ex01-word-count-file/`](https://github.com/simonkeimer/rustut/tree/main/exercises/ch24-files-and-os/ex01-word-count-file),
+[`exercises/ch24-files-and-os/ex01-word-count-file/`](https://github.com/dc0sk/rustut/tree/main/exercises/ch24-files-and-os/ex01-word-count-file),
 has you implement a small word-frequency counter over a real file on
 disk. See its `README.md`.
 

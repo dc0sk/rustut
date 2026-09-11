@@ -108,7 +108,7 @@ only that the two much nastier bug classes are.
 ## Exercise
 
 **Exercise 16.1**, in
-[`exercises/ch16-memory-safety-raii/ex01-guard-order/`](https://github.com/simonkeimer/rustut/tree/main/exercises/ch16-memory-safety-raii/ex01-guard-order),
+[`exercises/ch16-memory-safety-raii/ex01-guard-order/`](https://github.com/dc0sk/rustut/tree/main/exercises/ch16-memory-safety-raii/ex01-guard-order),
 has you implement a `Drop` impl and a nested-scope function, then prove to
 yourself (via the test suite) that the drop order comes out exactly as
 this chapter predicts. See its `README.md`.

@@ -1,7 +1,7 @@
 version = 1
 SPDX-PackageName = "rustut"
 SPDX-PackageSupplier = "Simon Keimer <simon.keimer@mailbox.org>"
-SPDX-PackageDownloadLocation = "https://github.com/simonkeimer/rustut"
+SPDX-PackageDownloadLocation = "https://github.com/dc0sk/rustut"
 
 [[annotations]]
 path = "src/**"

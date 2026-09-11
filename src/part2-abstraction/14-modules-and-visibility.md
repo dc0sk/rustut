@@ -108,7 +108,7 @@ reuse benefit yet.
 ## Exercise
 
 **Exercise 14.1**, in
-[`exercises/ch14-modules-and-visibility/ex01-visibility-boundaries/`](https://github.com/simonkeimer/rustut/tree/main/exercises/ch14-modules-and-visibility/ex01-visibility-boundaries),
+[`exercises/ch14-modules-and-visibility/ex01-visibility-boundaries/`](https://github.com/dc0sk/rustut/tree/main/exercises/ch14-modules-and-visibility/ex01-visibility-boundaries),
 has you implement a `pub(super)`-scoped helper and add a `prelude`
 re-export. See its `README.md`.
 

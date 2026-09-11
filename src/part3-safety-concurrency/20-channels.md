@@ -70,7 +70,7 @@ in this book, but worth knowing it exists.)
 ## Exercise
 
 **Exercise 20.1**, in
-[`exercises/ch20-channels/ex01-fan-in-aggregator/`](https://github.com/simonkeimer/rustut/tree/main/exercises/ch20-channels/ex01-fan-in-aggregator),
+[`exercises/ch20-channels/ex01-fan-in-aggregator/`](https://github.com/dc0sk/rustut/tree/main/exercises/ch20-channels/ex01-fan-in-aggregator),
 has you fan out work across several threads and fan the results back in
 through a shared channel. See its `README.md`.
 

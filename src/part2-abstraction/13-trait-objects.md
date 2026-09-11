@@ -67,7 +67,7 @@ with:
 ## Exercise
 
 **Exercise 13.1**, in
-[`exercises/ch13-trait-objects/ex01-shape-collection/`](https://github.com/simonkeimer/rustut/tree/main/exercises/ch13-trait-objects/ex01-shape-collection),
+[`exercises/ch13-trait-objects/ex01-shape-collection/`](https://github.com/dc0sk/rustut/tree/main/exercises/ch13-trait-objects/ex01-shape-collection),
 asks you to sum the area of a `Vec<Box<dyn HasArea>>` mixing two unrelated
 shape types — dispatch through the trait object, don't downcast.
 

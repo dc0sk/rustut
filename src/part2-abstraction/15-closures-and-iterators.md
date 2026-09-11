@@ -54,7 +54,7 @@ both ways:
 
 Both are tested against each other and against known values in the
 example crate — see `loop_and_iterator_versions_agree` in
-[`examples/ch15-closures-and-iterators/src/lib.rs`](https://github.com/simonkeimer/rustut/blob/main/examples/ch15-closures-and-iterators/src/lib.rs).
+[`examples/ch15-closures-and-iterators/src/lib.rs`](https://github.com/dc0sk/rustut/blob/main/examples/ch15-closures-and-iterators/src/lib.rs).
 
 ## The zero-cost abstraction claim — verify it yourself
 
@@ -66,7 +66,7 @@ you to trust it — an asm diff is exactly the kind of claim that should be
 checked, not asserted. Check it yourself:
 
 Paste both `sum_even_squares_loop` and `sum_even_squares_iter` (from
-[`examples/ch15-closures-and-iterators/src/lib.rs`](https://github.com/simonkeimer/rustut/blob/main/examples/ch15-closures-and-iterators/src/lib.rs))
+[`examples/ch15-closures-and-iterators/src/lib.rs`](https://github.com/dc0sk/rustut/blob/main/examples/ch15-closures-and-iterators/src/lib.rs))
 into [godbolt.org](https://godbolt.org), pick the `rustc` compiler, and
 compile with optimizations on (`-O` or `-C opt-level=3`) — this is the
 standard, reliable way to compare generated machine code without needing
@@ -79,7 +79,7 @@ and `.map()`, because the compiler inlines and monomorphizes them away
 ## Exercise
 
 **Exercise 15.1**, in
-[`exercises/ch15-closures-and-iterators/ex01-sum-where/`](https://github.com/simonkeimer/rustut/tree/main/exercises/ch15-closures-and-iterators/ex01-sum-where),
+[`exercises/ch15-closures-and-iterators/ex01-sum-where/`](https://github.com/dc0sk/rustut/tree/main/exercises/ch15-closures-and-iterators/ex01-sum-where),
 has you implement a function taking two closures as parameters, built
 using iterator combinators rather than a manual loop. See its `README.md`.
 

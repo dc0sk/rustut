@@ -72,7 +72,7 @@ reference-counting overhead entirely.
 ## Exercise
 
 **Exercise 18.1**, in
-[`exercises/ch18-threads/ex01-parallel-sum/`](https://github.com/simonkeimer/rustut/tree/main/exercises/ch18-threads/ex01-parallel-sum),
+[`exercises/ch18-threads/ex01-parallel-sum/`](https://github.com/dc0sk/rustut/tree/main/exercises/ch18-threads/ex01-parallel-sum),
 has you split a slice across scoped threads and sum it in parallel. See
 its `README.md`.
 

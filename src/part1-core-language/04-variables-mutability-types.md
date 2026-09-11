@@ -114,7 +114,7 @@ else { .. };` above type-checks at all.
 ## Exercise
 
 **Exercise 4.1**, in
-[`exercises/ch04-variables-mutability-types/ex01-safe-narrowing/`](https://github.com/simonkeimer/rustut/tree/main/exercises/ch04-variables-mutability-types/ex01-safe-narrowing),
+[`exercises/ch04-variables-mutability-types/ex01-safe-narrowing/`](https://github.com/dc0sk/rustut/tree/main/exercises/ch04-variables-mutability-types/ex01-safe-narrowing),
 has you implement a checked narrowing conversion and a checked addition —
 see its `README.md`.
 

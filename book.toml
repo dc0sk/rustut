@@ -9,8 +9,8 @@ src = "src"
 create-missing = false
 
 [output.html]
-git-repository-url = "https://github.com/simonkeimer/rustut"
-edit-url-template = "https://github.com/simonkeimer/rustut/edit/main/{path}"
+git-repository-url = "https://github.com/dc0sk/rustut"
+edit-url-template = "https://github.com/dc0sk/rustut/edit/main/{path}"
 
 [output.html.fold]
 enable = true

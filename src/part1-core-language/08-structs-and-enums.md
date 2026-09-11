@@ -91,7 +91,7 @@ actually need C's layout guarantees — talking to a C library over FFI —
 ## Exercise
 
 **Exercise 8.1**, in
-[`exercises/ch08-structs-and-enums/ex01-shapes-and-vehicles/`](https://github.com/simonkeimer/rustut/tree/main/exercises/ch08-structs-and-enums/ex01-shapes-and-vehicles),
+[`exercises/ch08-structs-and-enums/ex01-shapes-and-vehicles/`](https://github.com/dc0sk/rustut/tree/main/exercises/ch08-structs-and-enums/ex01-shapes-and-vehicles),
 has you implement a struct's `impl` block and an enum's variant-dependent
 logic. See its `README.md`.
 

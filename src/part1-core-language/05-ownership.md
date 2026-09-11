@@ -87,7 +87,7 @@ of it.
 ## Exercise
 
 **Exercise 5.1**, in
-[`exercises/ch05-ownership/ex01-move-and-clone/`](https://github.com/simonkeimer/rustut/tree/main/exercises/ch05-ownership/ex01-move-and-clone),
+[`exercises/ch05-ownership/ex01-move-and-clone/`](https://github.com/dc0sk/rustut/tree/main/exercises/ch05-ownership/ex01-move-and-clone),
 has you write three small functions that between them cover taking
 ownership, returning it back out, and borrowing instead of taking it — see
 its `README.md`.

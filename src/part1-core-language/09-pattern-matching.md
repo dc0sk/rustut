@@ -96,7 +96,7 @@ that older Rust code sometimes shows.
 ## Exercise
 
 **Exercise 9.1**, in
-[`exercises/ch09-pattern-matching/ex01-classify-readings/`](https://github.com/simonkeimer/rustut/tree/main/exercises/ch09-pattern-matching/ex01-classify-readings),
+[`exercises/ch09-pattern-matching/ex01-classify-readings/`](https://github.com/dc0sk/rustut/tree/main/exercises/ch09-pattern-matching/ex01-classify-readings),
 has you write a `match` with guards over a small alerting enum. See its
 `README.md`.
 

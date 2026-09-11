@@ -67,7 +67,7 @@ same guarantee, multiple simultaneous readers *or* one writer, never both.
 ## Exercise
 
 **Exercise 19.1**, in
-[`exercises/ch19-send-sync/ex01-shared-counter/`](https://github.com/simonkeimer/rustut/tree/main/exercises/ch19-send-sync/ex01-shared-counter),
+[`exercises/ch19-send-sync/ex01-shared-counter/`](https://github.com/dc0sk/rustut/tree/main/exercises/ch19-send-sync/ex01-shared-counter),
 has you build a `SharedCounter` type that hides its `Mutex` entirely
 behind `add`/`get` methods — no accessor ever exposes the raw lock. See
 its `README.md`.

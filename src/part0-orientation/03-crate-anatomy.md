@@ -90,7 +90,7 @@ live inside a workspace.
 ## Exercise
 
 **Exercise 3.1**, in
-[`exercises/ch03-crate-anatomy/ex01-module-visibility/`](https://github.com/simonkeimer/rustut/tree/main/exercises/ch03-crate-anatomy/ex01-module-visibility),
+[`exercises/ch03-crate-anatomy/ex01-module-visibility/`](https://github.com/dc0sk/rustut/tree/main/exercises/ch03-crate-anatomy/ex01-module-visibility),
 gives you a complete, correct `inventory.rs` that simply isn't wired into
 the crate yet. See its `README.md`.
 

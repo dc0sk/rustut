@@ -95,7 +95,7 @@ more tasks than you'd want one OS thread each.
 ## Exercise
 
 **Exercise 22.1**, in
-[`exercises/ch22-async-await/ex01-fetch-concurrently/`](https://github.com/simonkeimer/rustut/tree/main/exercises/ch22-async-await/ex01-fetch-concurrently),
+[`exercises/ch22-async-await/ex01-fetch-concurrently/`](https://github.com/dc0sk/rustut/tree/main/exercises/ch22-async-await/ex01-fetch-concurrently),
 has you implement `fetch_all`, spawning one task per simulated fetch and
 awaiting all of them — with a test that, like the guided example, proves
 concurrency by measuring wall-clock time. See its `README.md`.

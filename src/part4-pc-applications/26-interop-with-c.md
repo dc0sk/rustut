@@ -85,7 +85,7 @@ the mirror image of everything above.
 ## Exercise
 
 **Exercise 26.1**, in
-[`exercises/ch26-interop-with-c/ex01-clamp/`](https://github.com/simonkeimer/rustut/tree/main/exercises/ch26-interop-with-c/ex01-clamp),
+[`exercises/ch26-interop-with-c/ex01-clamp/`](https://github.com/dc0sk/rustut/tree/main/exercises/ch26-interop-with-c/ex01-clamp),
 gives you a complete, already-compiled C function and has you write the
 Rust-side binding for it — the same `cc`-crate workflow, a new function.
 See its `README.md`.

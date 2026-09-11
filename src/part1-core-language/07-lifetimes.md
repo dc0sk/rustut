@@ -79,7 +79,7 @@ spawning threads.
 ## Exercise
 
 **Exercise 7.1**, in
-[`exercises/ch07-lifetimes/ex01-parser-struct/`](https://github.com/simonkeimer/rustut/tree/main/exercises/ch07-lifetimes/ex01-parser-struct),
+[`exercises/ch07-lifetimes/ex01-parser-struct/`](https://github.com/dc0sk/rustut/tree/main/exercises/ch07-lifetimes/ex01-parser-struct),
 has you implement a small whitespace tokenizer built entirely on borrowed
 `&str` slices — no allocation, no cloning. See its `README.md`.
 

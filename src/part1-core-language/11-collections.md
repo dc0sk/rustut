@@ -86,7 +86,7 @@ case for arrays.
 ## Exercise
 
 **Exercise 11.1**, in
-[`exercises/ch11-collections/ex01-word-count-and-dedup/`](https://github.com/simonkeimer/rustut/tree/main/exercises/ch11-collections/ex01-word-count-and-dedup),
+[`exercises/ch11-collections/ex01-word-count-and-dedup/`](https://github.com/dc0sk/rustut/tree/main/exercises/ch11-collections/ex01-word-count-and-dedup),
 has you build a word-frequency `HashMap` and an order-preserving dedup
 using a `HashSet` alongside a `Vec`. See its `README.md`.
 

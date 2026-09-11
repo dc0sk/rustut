@@ -89,7 +89,7 @@ forgets to update it.
 ## Exercise
 
 **Exercise 12.1**, in
-[`exercises/ch12-traits-and-generics/ex01-generic-stats/`](https://github.com/simonkeimer/rustut/tree/main/exercises/ch12-traits-and-generics/ex01-generic-stats),
+[`exercises/ch12-traits-and-generics/ex01-generic-stats/`](https://github.com/dc0sk/rustut/tree/main/exercises/ch12-traits-and-generics/ex01-generic-stats),
 asks you to write a function generic over any type implementing a small
 `Scored` trait — the test file exercises it with two unrelated types to
 make sure your solution doesn't quietly assume anything beyond the trait

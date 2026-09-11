@@ -116,7 +116,7 @@ To calibrate expectations before you invest in the rest of this book:
 ## Exercise
 
 Work through **Exercise 1.1** in
-[`exercises/ch01-why-rust/ex01-raii-vs-bounds-checking/`](https://github.com/simonkeimer/rustut/tree/main/exercises/ch01-why-rust/ex01-raii-vs-bounds-checking) —
+[`exercises/ch01-why-rust/ex01-raii-vs-bounds-checking/`](https://github.com/dc0sk/rustut/tree/main/exercises/ch01-why-rust/ex01-raii-vs-bounds-checking) —
 its `README.md` has the full task. You'll implement the bounds-checked
 lookup and the RAII guard from this chapter yourself. If you're working
 with a coding agent, point it at the repository's `AGENTS.md` first.

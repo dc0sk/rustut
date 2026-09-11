@@ -60,7 +60,7 @@ after `.accept()` is a small, mechanical change, not a redesign.
 ## Exercise
 
 **Exercise 25.1**, in
-[`exercises/ch25-networking/ex01-echo-line/`](https://github.com/simonkeimer/rustut/tree/main/exercises/ch25-networking/ex01-echo-line),
+[`exercises/ch25-networking/ex01-echo-line/`](https://github.com/dc0sk/rustut/tree/main/exercises/ch25-networking/ex01-echo-line),
 has you implement an uppercase-echo server building on the same
 ephemeral-port pattern this chapter used. See its `README.md`.
 
