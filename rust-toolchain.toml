@@ -1,3 +1,9 @@
 [toolchain]
-channel = "1.85"
+# "stable" rather than a pin: this repo's actual local/CI toolchains track
+# current stable (edition 2024, which requires >= 1.85 — see
+# workspace.package.rust-version in Cargo.toml for the documented MSRV
+# floor). A hard channel pin here isn't honored by every environment this
+# repo is developed in, so don't rely on it for reproducibility — rely on
+# Cargo.lock instead.
+channel = "stable"
 components = ["rustfmt", "clippy"]
